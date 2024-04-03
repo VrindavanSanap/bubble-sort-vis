@@ -1,6 +1,6 @@
 let grid;
 let cols;
-let n_cols = 20;
+let n_cols = 80;
 let col_width;
 let col_height;
 let is_running = true;
