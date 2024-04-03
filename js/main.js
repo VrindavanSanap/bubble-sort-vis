@@ -26,7 +26,9 @@ function draw() {
     frameRate(10)
 
 }
-
+function set_sorting_algo(sorting_algo_name) {
+    grid.set_sorting_algo(sorting_algo_name)
+}
 function windowResized() {
     // resizeCanvas(windowWidth, windowHeight);
 }

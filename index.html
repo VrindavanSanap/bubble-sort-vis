@@ -22,8 +22,17 @@
     <script src="js/grid.js"></script>
     <script src="js/main.js"></script>
 
-    <h1>Bubble Sort</h1>
-<button id="reset_btn" onclick="reset()">Reset</button>
+    <h1>Sorting algorithm visualisation</h1>
+
+
+    <h4>Sorting algorithm:</h4>
+    <select id="sorting_algorithms" onchange="set_sorting_algo(this.value)">
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+    </select>
+    <br>
+    <br>
+    <button id="reset_btn" onclick="reset()">Reset</button>
 
 </body>
 
