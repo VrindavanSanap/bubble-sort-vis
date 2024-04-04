@@ -11,8 +11,6 @@ function setup() {
     col_width = width / n_cols;
     col_height = height;
     grid = new Grid(n_cols, col_width, col_height);
-
-
 }
 
 function keyPressed() {
