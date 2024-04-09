@@ -47,5 +47,8 @@ class Grid {
     }
 
     reset() {
+        this.cols = Array.from({ length: n_cols }, () => Math.floor(Math.random() * col_height) + 1);
+        this.i = 0;
+        this.j = 0;
     }
 }
